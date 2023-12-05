@@ -1,0 +1,52 @@
+[
+    {
+      "name": "Back in Black",
+      "singers": "AC/DC",
+      "publish_date": "1980-07-21"
+    },
+    {
+      "name": "Sweet Child o' Mine",
+      "singers": "Guns N' Roses",
+      "publish_date": "1987-08-17"
+    },
+    {
+      "name": "Highway to Hell",
+      "singers": "AC/DC",
+      "publish_date": "1979-08-03"
+    },
+    {
+      "name": "Welcome to the Jungle",
+      "singers": "Guns N' Roses",
+      "publish_date": "1987-10-03"
+    },
+    {
+      "name": "Livin' on a Prayer",
+      "singers": "Bon Jovi",
+      "publish_date": "1986-10-31"
+    },
+    {
+      "name": "Paradise City",
+      "singers": "Guns N' Roses",
+      "publish_date": "1987-11-30"
+    },
+    {
+      "name": "You Shook Me All Night Long",
+      "singers": "AC/DC",
+      "publish_date": "1980-08-19"
+    },
+    {
+      "name": "Sweet Home Alabama",
+      "singers": "Lynyrd Skynyrd",
+      "publish_date": "1974-06-24"
+    },
+    {
+      "name": "Don't Stop Believin'",
+      "singers": "Journey",
+      "publish_date": "1981-06-08"
+    },
+    {
+      "name": "November Rain",
+      "singers": "Guns N' Roses",
+      "publish_date": "1992-02-18"
+    }
+  ]
