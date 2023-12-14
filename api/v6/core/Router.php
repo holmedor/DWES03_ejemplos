@@ -31,3 +31,4 @@ class Router{
         return $this->params;
     }
 }
+?>

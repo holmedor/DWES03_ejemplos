@@ -46,6 +46,8 @@ $router->add(
     )
 );
 
+//var_dump($router);
+
 $urlParams = explode('/', $url); //separa en parámetros la url a través de la /
 
 $urlArray = array(
@@ -97,7 +99,7 @@ if ($router->matchRoutes($urlArray)) {
     } elseif ($method === 'DELETE') {
 
         $params[] = intval($urlArray['params']) ?? null;
-    }
+    } 
 
     $controller = $router->getParams()['controller'];    //controlador a llamar
     $action = $router->getParams()['action'];             //método a llamar
@@ -108,11 +110,11 @@ if ($router->matchRoutes($urlArray)) {
     } else {
         echo "El metodo no existe";
     }
-}
+} 
 
-echo '<pre>';
-print_r($urlArray) .'<br>';
+//echo '<pre>';
+//print_r($urlArray) .'<br>';
 //print_r($router->getRoutes()) .'<br>';
-print_r($method) .'<br>';
-echo '</pre>';
+//print_r($method) .'<br>';
+//echo '</pre>';
 ?>

@@ -7,8 +7,8 @@
     },
     {
         "id": 2,
-        "titulo": "Licorice Pizza",
-        "ADE": "Paul Thomas Anderson",
+        "titulo": "Pizza Hut",
+        "ADE": "Pipi Calzas Largas",
         "medio": "DVD"
     },
     {
@@ -58,11 +58,5 @@
         "titulo": "Malditos Bastardos",
         "ADE": "Quentin Tarantino",
         "medio": "Bluray"
-    },
-    {
-        "id": 11,
-        "titulo": "Titulo 11",
-        "ADE": "ADE11",
-        "medio": "CD"
     }
 ]
