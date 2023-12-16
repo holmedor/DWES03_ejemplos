@@ -45,7 +45,15 @@ $router->add(
         'action' => 'deleteMedia'
     )
 );
-
+/*
+$router->add(
+    '/public/media/kk',
+    array(    //404 para un medio
+        'controller' => 'Media',
+        'action' => 'errorMedia'
+    )
+);
+*/
 //var_dump($router);
 
 $urlParams = explode('/', $url); //separa en parámetros la url a través de la /
@@ -114,7 +122,7 @@ if ($router->matchRoutes($urlArray)) {
 
 //echo '<pre>';
 //print_r($urlArray) .'<br>';
-//print_r($router->getRoutes()) .'<br>';
+//print_r($router->getRoutes()) .'<br>'; //muestra las rutas introducidas
 //print_r($method) .'<br>';
 //echo '</pre>';
 ?>
